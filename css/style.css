@@ -94,11 +94,11 @@ background: linear-gradient(0deg, rgba(30,18,104,1) 0%, rgba(41,28,144,1) 66%);
 }
 .hero-avatar {
   background-color: #fff;
-  background-image: url("../img/avatar.jpg");
+  background-image: url("../img/Aleksandr/Portret.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  border: 13px solid #fff;
+  border: 10px solid #ffbb01;
   border-radius: 50%;
   width: 389px;
   height: 389px;
