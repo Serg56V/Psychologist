@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background-color: rgb(30,18,104);
+  background-color: rgb(30, 18, 104);
   margin: 0;
   color: #fff;
   font-family: "Roboto", sans-serif;
@@ -27,14 +27,22 @@ body {
 .hero,
 .features,
 .projects {
-  background: rgb(30,18,104);
-background: linear-gradient(0deg, rgba(30,18,104,1) 0%, rgba(41,28,144,1) 66%);
+  background: rgb(30, 18, 104);
+  background: linear-gradient(
+    0deg,
+    rgba(30, 18, 104, 1) 0%,
+    rgba(41, 28, 144, 1) 66%
+  );
 }
 .features0,
 .features1,
 .footer {
-  background: rgb(30,18,104);
-background: linear-gradient(0deg, rgba(30,18,104,1) 0%, rgba(41,28,144,1) 66%);
+  background: rgb(30, 18, 104);
+  background: linear-gradient(
+    0deg,
+    rgba(30, 18, 104, 1) 0%,
+    rgba(41, 28, 144, 1) 66%
+  );
 }
 .hero {
   padding-top: 50px;
@@ -140,16 +148,48 @@ background: linear-gradient(0deg, rgba(30,18,104,1) 0%, rgba(41,28,144,1) 66%);
   margin: 0;
 }
 
+.about-block {
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+}
+.about-image {
+  height: 600px;
+  border-top-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  border: 10px solid #ffbb01;
+}
+.about-text {
+  margin-bottom: 20px;
+}
+.about-title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  margin-top: 30px;
+  margin-bottom: 16px;
+}
+.about-list {
+  margin-left: 20px;
+  line-height: 28px;
+}
+
+.yoga {
+  color: #ffbb01;
+}
+
 /* Projects */
 
 .projects-slide {
   display: flex;
   align-items: flex-start;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .project-image {
-  border-radius: 30%;
-  width: 350px;
+  height: 500px;
+  border-top-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  border: 10px solid #ffbb01;
 }
 .project-text {
   flex-basis: 60%;
@@ -186,6 +226,10 @@ background: linear-gradient(0deg, rgba(30,18,104,1) 0%, rgba(41,28,144,1) 66%);
   margin: 0;
   font-size: 16px;
   line-height: 18px;
+  margin-bottom: 10px;
+}
+ol.list {
+  margin-left: 20px;
 }
 .project-icon {
   margin-right: 16px;
