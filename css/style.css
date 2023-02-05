@@ -36,7 +36,8 @@ body {
 }
 .features0,
 .features1,
-.footer {
+.footer,
+.price {
   background: rgb(30, 18, 104);
   background: linear-gradient(
     0deg,
@@ -100,6 +101,9 @@ body {
   text-transform: uppercase;
   cursor: pointer;
 }
+.button:hover {
+  background: linear-gradient(0deg, #fdde76 0%, #ffbb01 100%);
+}
 .hero-avatar {
   background-color: #fff;
   background-image: url("../img/Aleksandr/Portret.jpg");
@@ -161,6 +165,7 @@ body {
 }
 .about-text {
   margin-bottom: 20px;
+  line-height: 26px;
 }
 .about-title {
   font-weight: bold;
@@ -171,6 +176,7 @@ body {
 }
 .about-list {
   margin-left: 20px;
+  margin-bottom: 20px;
   line-height: 28px;
 }
 
@@ -178,7 +184,7 @@ body {
   color: #ffbb01;
 }
 
-/* Projects */
+/* Projects - ОТЗЫВЫ*/
 
 .projects-slide {
   display: flex;
@@ -250,6 +256,48 @@ ol.list {
 }
 .projects-bullet-active {
   background-color: #ffbb01;
+}
+
+/* PRICE */
+.price__blocks {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.price__blocks-block {
+  max-width: 300px;
+  border: 2px solid #ffbb01;
+  padding: 20px 10px;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.price .features-title {
+  margin-bottom: 26px;
+  text-align: center;
+}
+.price__img {
+  max-width: 280px;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border: 8px solid #ffbb01;
+  margin-bottom: 20px;
+}
+.price__time-min {
+  margin-bottom: 5px;
+}
+.price__time-after {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.price__time-price {
+  font-size: 28px;
+  color: #ffbb01;
+}
+.price-button {
+  display: flex;
+  padding: 12px 42px;
+  margin: 20px auto 10px;
 }
 
 /* contacts */

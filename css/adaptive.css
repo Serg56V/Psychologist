@@ -22,7 +22,7 @@
 
   .section {
     padding-top: 30px;
-    padding-bottom: 0;
+    padding-bottom: 30px;
   }
 
   .section-title {
@@ -30,6 +30,10 @@
   }
   .contacts-block {
     gap: 20px;
+  }
+  .price__blocks {
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
 }
 
@@ -73,6 +77,9 @@
   .contacts-block {
     margin-bottom: 40px;
   }
+  .price__time-price {
+    font-size: 24px;
+}
 }
 
 @media (max-width: 600px) {
@@ -96,6 +103,9 @@
   .button {
     padding: 20px 30px;
   }
+  .price-button {
+  padding: 12px 42px;
+}
   .features-block,
   .about-block,
   .projects-slide,
