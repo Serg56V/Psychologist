@@ -64,6 +64,9 @@ body {
 .social-link:first-child {
   margin-left: 0;
 }
+.social-link img {
+  opacity: 0.8;
+}
 .hero-content {
   display: flex;
   justify-content: space-between;
@@ -260,12 +263,17 @@ ol.list {
 
 /* PRICE */
 .price__blocks {
+  flex-wrap: wrap;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   gap: 20px;
 }
 .price__blocks-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   max-width: 300px;
+  height: 470px;
   border: 2px solid #ffbb01;
   padding: 20px 10px;
   border-top-left-radius: 30px;

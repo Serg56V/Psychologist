@@ -32,8 +32,10 @@
     gap: 20px;
   }
   .price__blocks {
-    flex-wrap: wrap;
     justify-content: space-around;
+  }
+  .contacts-link {
+    font-size: 14px;
   }
 }
 
@@ -79,7 +81,18 @@
   }
   .price__time-price {
     font-size: 24px;
-}
+  }
+  .contacts-data {
+    flex-direction: column;
+    text-align: center;
+  }
+  .contacts-link {
+    margin-right: 0;
+  }
+  .social-links {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 @media (max-width: 600px) {
@@ -131,4 +144,8 @@
   .contacts-text {
     text-align: center;
   }
+  .contacts-data {
+    margin-bottom: 0;
+  }
+  
 }
