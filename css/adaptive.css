@@ -19,20 +19,21 @@
     width: 300px;
     height: 300px;
   }
-
   .section {
     padding-top: 30px;
     padding-bottom: 30px;
   }
-
   .section-title {
     margin-bottom: 55px;
   }
-  .contacts-block {
-    gap: 20px;
-  }
   .price__blocks {
     justify-content: space-around;
+  }
+  .popup-img {
+    height: 600px;
+  }
+  .contacts-block {
+    gap: 20px;
   }
   .contacts-link {
     font-size: 14px;
@@ -74,7 +75,7 @@
     gap: 20px;
   }
   .projects-pagination {
-    margin: 20px;
+    margin-top: 20px;
   }
   .contacts-block {
     margin-bottom: 40px;
@@ -117,13 +118,16 @@
     padding: 20px 30px;
   }
   .price-button {
-  padding: 12px 42px;
-}
+    padding: 12px 42px;
+  }
   .features-block,
   .about-block,
   .projects-slide,
   .contacts-block {
     flex-direction: column;
+  }
+  .diploma {
+    flex-direction: row;
   }
   .about-block {
     margin-bottom: 40px;
@@ -147,5 +151,4 @@
   .contacts-data {
     margin-bottom: 0;
   }
-  
 }
