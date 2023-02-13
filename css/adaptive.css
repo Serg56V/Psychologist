@@ -142,6 +142,9 @@
   .project-image {
     margin: 0 auto 30px;
   }
+  .popup-img {
+    max-width: 400px;
+  }
   .contacts-form {
     margin-bottom: 40px;
   }
